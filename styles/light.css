@@ -4,8 +4,8 @@
 /*
 } */
 
+/* сохраните этот селектор в приведённом виде.Так стили написанные ниже будут иметь больший вес,чем стили в медиазапросе предпочтений пользователя */ 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.Так стили написанные ниже будут иметь больший вес,чем стили в медиазапросе предпочтений пользователя */ 
   --bg-color: #fff1f7;
   --accent-color: #ff8dcb;
   --accent-color-text: #353430;
@@ -20,6 +20,12 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  --accent-color-text: #353430;
+  --text-color: #353430;
+  --text-color-title: #353430;
+  --accent-text-color-title: #ffc2e6;
+  --cover-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -37,9 +43,12 @@
   .header__decor{
     color: transparent;
   }
+
   .header__decor::after{
     content: "";
     background-color:  transparent;
     box-shadow: 0px 0px 4px 2px  transparent;
   }
+
 }
+
