@@ -179,7 +179,7 @@
   width: 100%;
 }
 
-.gallery > img{
+.gallery > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -217,9 +217,6 @@
   display: block;
   line-height: 82.5%;
   color: var(--accent-text-color-title, #db00ff);
-}
-
-.footer__title {
   text-shadow: 2px 2px 0px var(--accent-color);
 }
 
