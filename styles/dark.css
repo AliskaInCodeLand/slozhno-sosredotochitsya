@@ -6,23 +6,10 @@
   --text-color: #f1b2ce;
   --text-color-title: #000028;
   --accent-text-color-title: #db00ff;
-  --main-font: 'IBM Plex mono';
+  --main-font: 'IBM Plex mono', monospace;
   --cover-image: url(../images/cover-image-dark.png);
 
-  .header__decor {
-    content: " ";
-    color: var(--accent-color);
-  }
-
-  .header__decor::after {
-    content: " ";
+  .header__decor, .header__decor::after {
     display: inline-block;
-    margin-inline-start: 10px;
-    margin-block-end: 3px;
-    inline-size: 9px;
-    block-size: 9px;
-    background-color: var(--accent-color);
-    box-shadow: 0px 0px 4px 2px var(--accent-color);
-    border-radius: 50%;
   }
 }
